@@ -45,7 +45,7 @@ public static void main (String[] args) {
 						System.out.print("\n");
 					}//end first for loop	
 					rGuess = Integer.parseInt(JOptionPane.showInputDialog("That was unsuccessful, Enter the row where you think the battleship is hiding, KEEP IN MIND, ITS COUNTING BY INDEX!"));
-					cGuess = Integer.parseInt(JOptionPane.showInputDialog("That was unsuccessful,Enter the column where you think the battleship is hiding, KEEP IN MIND, ITS COUNTING BY INDEX!"));
+					cGuess = Integer.parseInt(JOptionPane.showInputDialog("That was unsuccessful, Enter the column where you think the battleship is hiding, KEEP IN MIND, ITS COUNTING BY INDEX!"));
 					found = false;
 				}//end if statement 
 				if(gameBoard[rGuess][cGuess] == gameBoard[battleshipR][battleshipC]) {
@@ -81,7 +81,7 @@ public static void main (String[] args) {
 			}//end for loop
 		}//end for loop
 	}//end while loop
-	if(found = true) {
+	if(found == true) {
 		System.out.println("You sunk my battle ship!");
 		found = true;//ends while loop
 	}//end if statement 
