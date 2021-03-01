@@ -64,7 +64,7 @@ for(int y = 0; y < bad.size(); y++) {int first = (bad.get(y))*100;
 		}//end getter
 		public static ArrayList<Integer> getList() { return newList;
 		}//end static
-		public String toString() {printAll(); String output = "NewList: " + newList; 
-		return output;
-	}//end toString()
+		public String toString() { printAll(); String output = "NewList: " + newList; 
+			return output;
+		}//end toString()
 }//end class
